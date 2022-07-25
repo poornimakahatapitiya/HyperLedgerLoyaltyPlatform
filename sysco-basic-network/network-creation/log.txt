@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: loyaltyToken_1:83d868b75b91be2b324b0c3aecc9aded5c8fc2f08a90f51e597214cbe62784be, Label: loyaltyToken_1
