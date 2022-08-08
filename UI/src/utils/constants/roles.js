@@ -1,0 +1,2 @@
+export const ROLE_CONSUMER = "VEHICLE_OWNER";
+export const ROLE_STATION = "GAS_STATION_MANAGER";

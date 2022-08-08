@@ -24,6 +24,7 @@ type Token struct {
 	Name  string `json:"name"`
 	Rate string `json:"rate"`
 	Owner  string `json:"owner"`
+	Amount string `json:"amount"`
 }
 
 type tokenPrivateDetails struct {
@@ -152,14 +153,14 @@ func (s *SmartContract) test(APIstub shim.ChaincodeStubInterface, args []string)
 
 func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
 	tokens := []Token{
-		Token{Type: "chickenPoints", Name: "Sysco-Chicken-points", Rate: "10 points = 1 sysco token", Owner: "Tomoko"},
-		Token{Type: "applePoints", Name: "Sysco-Apple-points", Rate: "20 points = 1 sysco token", Owner: "Brad"},
-		Token{Type: "pizzaPoints", Name: "PizzaHut-Pizza-points", Rate: "5 points = 1 sysco token", Owner: "Jin Soo"},
-		Token{Type: "mangoPoints", Name: "mangoSupplier-mango-points", Rate: "40 points = 1 sysco token", Owner: "Max"},
-		Token{Type: "coffeePoints", Name: "Starbucks-Coffee-points", Rate: "50 points = 1 sysco token", Owner: "Adriana"},
-		Token{Type: "teaPoints", Name: "Sysco-tea-points", Rate: "40 points = 1 sysco token", Owner: "Michel"},
-		Token{Type: "utensilPoints", Name: "Sysco-Utensil-points", Rate: "7 points = 1 sysco token", Owner: "Aarav"},
-		Token{Type: "bananaPoints", Name: "bananaFarm-banana-points", Rate: "60 points = 1 sysco token", Owner: "Pari"},
+		Token{Type: "chickenPoints", Name: "Sysco-Chicken-points", Rate: "10 points = 1 sysco token", Owner: "Tomoko" ,Amount:"100"},
+		Token{Type: "applePoints", Name: "Sysco-Apple-points", Rate: "20 points = 1 sysco token", Owner: "Brad",Amount:"100"},
+		Token{Type: "pizzaPoints", Name: "PizzaHut-Pizza-points", Rate: "5 points = 1 sysco token", Owner: "Jin Soo",Amount:"100"},
+		Token{Type: "mangoPoints", Name: "mangoSupplier-mango-points", Rate: "40 points = 1 sysco token", Owner: "Max",Amount:"100"},
+		Token{Type: "coffeePoints", Name: "Starbucks-Coffee-points", Rate: "50 points = 1 sysco token", Owner: "Adriana",Amount:"100"},
+		Token{Type: "teaPoints", Name: "Sysco-tea-points", Rate: "40 points = 1 sysco token", Owner: "Michel",Amount:"100"},
+		Token{Type: "utensilPoints", Name: "Sysco-Utensil-points", Rate: "7 points = 1 sysco token", Owner: "Aarav",Amount:"100"},
+		Token{Type: "bananaPoints", Name: "bananaFarm-banana-points", Rate: "60 points = 1 sysco token", Owner: "Pari",Amount:"100"},
 	
 	}
 
@@ -330,11 +331,11 @@ func (s *SmartContract) updatePrivateData(APIstub shim.ChaincodeStubInterface, a
 
 func (s *SmartContract) createToken(APIstub shim.ChaincodeStubInterface, args []string) sc.Response {
 
-	if len(args) != 5 {
-		return shim.Error("Incorrect number of arguments. Expecting 5")
+	if len(args) != 6 {
+		return shim.Error("Incorrect number of arguments. Expecting 6")
 	}
 
-	var token = Token{Name: args[1], Type: args[2], Rate: args[3], Owner: args[4]}
+	var token = Token{Name: args[1], Type: args[2], Rate: args[3], Owner: args[4], Amount: args[5]}
 
 	tokenAsBytes, _ := json.Marshal(token)
 	APIstub.PutState(args[0], tokenAsBytes)

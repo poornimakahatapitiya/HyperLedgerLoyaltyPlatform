@@ -1,0 +1,145 @@
+{
+  "common": {
+    "polima": "පෝලිම",
+    "logout": "පිටවීම",
+    "logout_caps": "පිටවීම",
+    "login": "පුනරණය වන්න",
+    "login_caps": "පුනරණය වන්න",
+    "signup": "ලියාපදිංචි වන්න",
+    "signup_caps": "ලියාපදිංචි වන්න",
+    "register_caps": "ලියාපදිංචි වන්න",
+    "town": "නගරය",
+    "contact": "අමතන්න:",
+    "type": "වර්ගය",
+    "error": "දෝෂය",
+    "success": "සාර්ථකයි",
+    "litres": "ලීටර්",
+    "vehicle": "වාහන",
+    "station": "ස්ථානය",
+    "unexpected_error": "අනපේක්ෂිත දෝෂයක් සිදු විය"
+  },
+  "fuel_card": {
+    "price": "මිල: රැ.",
+    "available_quota": "ලබා ගත හැකි කෝටාව:",
+    "litres": "ලීටර්"
+  },
+  "nav_bar": {
+    "update_stocks": "කොටස් යාවත්කාලීන කරන්න",
+    "my_profile": "මගේ පැතිකඩ"
+  },
+  "notification": {
+    "notification": "දැනුම්දීම",
+    "mark_as_read": "කියවූ බවට සලකුණු කරන්න"
+  },
+  "qr_code_dialog": {
+    "your_qr_code": "ඔබේ QR කේතය",
+    "qr_load_error": "QR කේතය පූරණය කළ නොහැකි විය!!!",
+    "download_qr": "PDF ලෙස බාගන්න"
+  },
+  "success_dialog": {
+    "request_success": "ඉල්ලීම සාර්ථකයි",
+    "token_no": "ඔබේ ටෝකන් අංකය:",
+    "vehicle_no": "වාහන අංකය:",
+    "created_at": "නිර්මාණය කළ දිනය:",
+    "expires_at": "කල් ඉකුත්වන දිනය:",
+    "fuel_station": "ඉන්ධන පිරවුම්හල:"
+  },
+  "vehicle_card": {
+    "engine_capacity": "එන්ජිමේ ධාරිතාව:"
+  },
+  "customer_home": {
+    "vehicle_select_error": "කරුණාකර වාහනයක් තෝරන්න",
+    "fuel_quota_error": "ඔබ වෙන් කළ ඉන්ධන කෝටාව ඉක්මවා ඇත",
+    "station_select_error": "කරුණාකර ඉන්ධන පිරවුම්හලක් තෝරන්න",
+    "request_token": "ටෝකනය ඉල්ලන්න",
+    "select_vehicle": "වාහනයක් තෝරන්න",
+    "remaining": "ඉතිරි",
+    "select_station": "ඉන්ධන පිරවුම්හලක් තෝරන්න"
+  },
+  "signup": {
+    "fill_details": "ලියාපදිංචි වීමට කරුණාකර ඔබගේ විස්තර පුරවන්න",
+    "confirm_email": "කරුණාකර ඔබගේ විද්‍යුත් තැපෑල වෙත ගොස් ගිණුම තහවුරු කරන්න",
+    "have_account": "දැනටමත් ගිණුමක් තිබේද?"
+  },
+  "login": {
+    "login_as_a": "ලොග් වන්න",
+    "consumer": "පාරිභෝගික",
+    "station": "ඉන්ධන පිරවුම්හල",
+    "forgot_pass": "මුරපදය අමතක වුණා ද?",
+    "login_as_consumer": "පාරිභෝගිකයෙක් ලෙස පුනරණය වන්න",
+    "login_as_station": "ඉන්ධන පිරවුම්හලක් පුනරණය වන්න",
+    "login_with_google": "GOOGLE සමඟින් ලොග් වන්න",
+    "no_account": "ගිණුමක් නැද්ද?",
+    "email_error": "විද්‍යුත් තැපෑල වලංගු නොවේ",
+    "password_error": "මුරපදය හිස් විය නොහැක"
+  },
+  "consumer_profile": {
+    "no_vehicle": "වාහන එකතු කර නැත",
+    "couldnt_load": "වාහන ලබා ගැනීමට නොහැකි විය",
+    "add_new_vehicle": "නව වාහනයක් එකතු කරන්න"
+  },
+  "vehicle_register": {
+    "vehicle_details": "වාහන විස්තර",
+    "enter_vehicle_no": "ඔබගේ වාහන අංකය ඇතුලත් කරන්න",
+    "enter_eng_cap": "එන්ජින් ධාරිතාව ඇතුල් කරන්න",
+    "enter_vehicle_type": "ඔබේ වාහන වර්ගය තෝරන්න",
+    "enter_fuel_type": "ඉන්ධන වර්ගය තෝරන්න"
+  },
+  "error_page": {
+    "error_404": "දෝෂය 404",
+    "error_message": "ඔබ සොයන පිටුව සොයා ගැනීමට නොහැකි විය :(",
+    "back_to_home": "ආපසු නිවසට"
+  },
+  "fuel_station_home_page": {
+    "scan_qr_code": "QR කේතය ස්කෑන් කරන්න",
+    "scan_qr_error": "QR කේතය පරිලෝකනය කිරීමේ දෝෂයකි",
+    "scan_qr_success": "QR කේතය සාර්ථකව පරිලෝකනය කරන ලදී",
+    "scan_qr_again": "නැවත ස්කෑන් කරන්න",
+    "token_details": "ටෝකන් විස්තර",
+    "plate_no": "තහඩු අංකය",
+    "pumped_amount": "පොම්ප කරන ලද මුදල",
+    "error_update_token": "ටෝකනය යාවත්කාලීන කිරීමේදී දෝෂයකි",
+    "submit": "ඉදිරිපත් කරන්න",
+    "token_update_success": "ටෝකනය සාර්ථකව යාවත්කාලීන කරන ලදී",
+    "available_fuel": "ලබා ගත හැකි ඉන්ධන"
+  },
+  "fuel_station_profle_page": {
+    "station_name": "දුම්රිය ස්ථානයේ නම",
+    "telephone_no": "දුරකථන අංකය",
+    "registartion_no": "ලියාපදිංචි අංකය",
+    "address": "ලිපිනය"
+  },
+  "fuel_station_signup_page": {
+    "as_fuel_station_manager": "ඉන්ධන පිරවුම්හල් කළමනාකරු ලෙස",
+    "please_fill_details": "ලියාපදිංචි වීමට කරුණාකර ඔබගේ විස්තර පුරවන්න",
+    "first_name": "මුල් නම",
+    "last_name": "අවසන් නම",
+    "email": "විද්යුත් තැපෑල",
+    "phone_no": "දුරකථන අංකය",
+    "nic_no": "ජාතික හැඳුනුම්පත් අංකය",
+    "password": "මුරපදය",
+    "confirm_password": "මුරපදය තහවුරු කරන්න",
+    "missing_details": "කරුණාකර නැතිවූ විස්තර පුරවන්න",
+    "register_success": "පරිශීලකයා සාර්ථකව ලියාපදිංචි විය",
+    "something_wrong": " මොකක්හරි වැරැද්දක් වෙලා",
+    "signup": "ලියාපදිංචි වන්න",
+    "confirm_email": "කරුණාකර ඔබගේ විද්‍යුත් තැපෑල වෙත ගොස් ගිණුම තහවුරු කරන්න",
+    "already_have_account": "දැනටමත් ගිණුමක් ඇත?",
+    "signin": "පුරන්න"
+  },
+  "fuel_station_update_page": {
+    "update_stocks": "කොටස් යාවත්කාලීන කරන්න",
+    "fuet_type": "ඉන්ධන වර්ගය",
+    "date_of_next_load": " ඊළඟ පැටවීමේ දිනය",
+    "load_amount": "පැටවුම් ප්රමාණය",
+    "price_per_liter": "ලීටරයක මිල"
+  },
+  "landing_page": {
+    "login_as_consumer": "පාරිභෝගිකයෙකු ලෙස ලොගින් වන්න",
+    "signup_as_consumer": "පාරිභෝගිකයෙකු ලෙස ලියාපදිංචි වන්න",
+    "login_as_fuel_station": "ඉන්ධන පිරවුම්හලක් ලෙස ලොගින් වන්න",
+    "signup_as_fuel_station": "ඉන්ධන පිරවුම්හලක් ලෙස ලියාපදිංචි වන්න",
+    "new_to_polima": "පෝලිමට අලුත්ද?",
+    "already_have_account": "දැනටමත් ගිණුමක් ඇත?"
+  }
+}

@@ -1,0 +1,9 @@
+export const POLIMA_LOGO_NO_BG = require("./polima-logo-no-bg.png");
+export const POLIMA_LOGO_WHITE_BG = require("./polima-logo-white-bg.png");
+export const USER_IMAGE = require("./dummy-user.png");
+export const VEHICLE_TYPE_CAR = require("./vehicle-type-car.png");
+export const VEHICLE_TYPE_MOTORBIKE = require("./vehicle-type-motorbike.jpg");
+export const QR_IMAGE = require("./dummy-qr.png");
+export const CAMERA = require("./camera.png");
+export const LANDING_LOGIN = require("./landing-login.jpg");
+export const LANDING_REGISTER = require("./landing-register.jpg");

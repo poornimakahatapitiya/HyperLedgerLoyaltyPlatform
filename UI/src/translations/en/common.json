@@ -1,0 +1,163 @@
+{
+  "common": {
+    "polima": "POLIMA",
+    "logout": "Logout",
+    "logout_caps": "LOGOUT",
+    "login": "Login",
+    "login_caps": "LOGIN",
+    "signup": "Sign Up",
+    "signup_caps": "SIGN UP",
+    "register_caps": "REGISTER",
+    "town": "Town",
+    "contact": "Contact:",
+    "type": "Type",
+    "error": "Error",
+    "success": "Success",
+    "litres": "litres",
+    "vehicle": "Vehicle",
+    "station": "Station",
+    "unexpected_error": "Unexpected error occured"
+  },
+
+  "fuel_card": {
+    "price": "Price: Rs.",
+    "available_quota": "Available Quota:",
+    "litres": "Litres"
+  },
+
+  "nav_bar": {
+    "update_stocks": "Update Stocks",
+    "my_profile": "My Profile"
+  },
+
+  "notification": {
+    "notification": "Notification",
+    "mark_as_read": "Mark as read"
+  },
+
+  "qr_code_dialog": {
+    "your_qr_code": "Your QR Code",
+    "qr_load_error": "Could not load QR code!!!",
+    "download_qr": "Download as PDF"
+  },
+
+  "success_dialog": {
+    "request_success": "Request Successful",
+    "token_no": "Your Token No:",
+    "vehicle_no": "Vehicle Number:",
+    "created_at": "Created At:",
+    "expires_at": "Expires At:",
+    "fuel_station": "Fuel Station:"
+  },
+
+  "vehicle_card": {
+    "engine_capacity": "Engine Capacity:"
+  },
+
+  "customer_home": {
+    "vehicle_select_error": "Please select a Vehicle",
+    "fuel_quota_error": "You have exceeded the allocated fuel quota",
+    "station_select_error": "Please select a Fuel Station",
+    "request_token": "Request Token",
+    "select_vehicle": "Select Vehicle",
+    "remaining": "remaining of",
+    "select_station": "Select A Fuel Station"
+  },
+
+  "signup": {
+    "fill_details": "Please fill in your details to sign up",
+    "confirm_email": "Please visit your email and confirm account",
+    "have_account": "Already have an account?"
+  },
+
+  "login": {
+    "login_as_a": "Login as a ",
+    "consumer": "Consumer",
+    "station": "Fuel Station",
+    "forgot_pass": "Forgot Password?",
+    "login_as_consumer": "LOGIN AS CONSUMER",
+    "login_as_station": "LOGIN AS FUEL STATION",
+    "login_with_google": "LOGIN WITH GOOGLE",
+    "no_account": "Don't have an account?",
+    "email_error": "Email is invalid",
+    "password_error": "Password cannot be empty"
+  },
+
+  "consumer_profile": {
+    "no_vehicle": "No Vehicles Added",
+    "couldnt_load": "Couldn't Load Vehicles",
+    "add_new_vehicle": "Add new vehicle"
+  },
+
+  "vehicle_register": {
+    "vehicle_details": "VEHICLE DETAILS",
+    "enter_vehicle_no": "ENTER YOUR VEHICLE NUMBER",
+    "enter_eng_cap": "ENTER ENGINE CAPACITY",
+    "enter_vehicle_type": "SELECT YOUR VEHICLE TYPE",
+    "enter_fuel_type": "SELETC FUEL TYPE"
+
+  },
+
+  "error_page": {
+    "error_404": "ERROR 404",
+    "error_message": "Couldn't find the page you are looking for :(",
+    "back_to_home": "Back to Home"
+  },
+
+  "fuel_station_home_page": {
+    "scan_qr_code": "SCAN QR CODE",
+    "scan_qr_error": "Error in scanning QR code",
+    "scan_qr_success": "Successfully Scanned QR code",
+    "scan_qr_again": "Scan Again",
+    "token_details": "TOKEN DETAILS",
+    "plate_no": "Plate Number",
+    "pumped_amount": "PUMPED AMOUNT",
+    "error_update_token": "Error in Updating Token",
+    "submit": "SUBMIT",
+    "token_update_success": "Token Updated Successfully",
+    "available_fuel": "AVAILABLE FUEL"
+  },
+
+  "fuel_station_profle_page": {
+    "station_name": "Name of the Station",
+    "telephone_no": "Telephone Number",
+    "registartion_no": "Registration Number",
+    "address": "Address"
+  },
+
+  "fuel_station_signup_page": {
+    "as_fuel_station_manager": "As Fuel Station Manager",
+    "please_fill_details": "Please fill in your details to sign up",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email Address",
+    "phone_no": "Phone Number",
+    "nic_no": "NIC Number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "missing_details": "Please fill missing details",
+    "register_success": "User registered successfully",
+    "something_wrong": " something went wrong",
+    "signup": "SIGN UP",
+    "confirm_email": "Please visit your email and confirm account",
+    "already_have_account": "Already have an account?",
+    "signin": "SIGN IN"
+  },
+
+  "fuel_station_update_page": {
+    "update_stocks": "UPDATE STOCKS",
+    "fuet_type": "Fuel Type",
+    "date_of_next_load": " DATE OF NEXT LOAD",
+    "load_amount": "LOAD AMOUNT",
+    "price_per_liter": "PRICE PER LITER"
+  },
+
+  "landing_page": {
+    "login_as_consumer": "LOGIN AS CONSUMER",
+    "signup_as_consumer": "SIGN UP AS CONSUMER",
+    "login_as_fuel_station": "LOGIN AS FUEL STATION",
+    "signup_as_fuel_station": "SIGN UP AS FUEL STATION",
+    "new_to_polima": "New to Polima?",
+    "already_have_account": "Already have an account?"
+  }
+}
