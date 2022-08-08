@@ -58,14 +58,11 @@ function ConsumerHomePage() {
     const selected = event.target.value;
     setSelectedPoint(event.target.value)
     setErrorVehicle(null);
-    if (selected.Type=== "Sysco-Shop-Points") {
-      
+    
       setRate(selected.rate)
       setAvailable(selected.amount)
-    }else if (selected.Type=== "Chicken-Shop-Points") {
-      setRate(selected.rate)
-      setAvailable(selected.amount)
-    }
+    
+
   };
 
   const redeemAmountChange = (event) => {
@@ -86,22 +83,28 @@ function ConsumerHomePage() {
   };
 
   const handleConvert = (_) => {
+    
     if( selectedPoint.Type==="Chicken-Shop-Points"){
       setConverted(convertAmount/10)
-    }else if(selectedPoint.Type==="Sysco-Shop-Points")
-    setConverted(convertAmount/100)
-  };
-  const handleRedeem = (_) => {
-    let hasErrors = false;
-
-    if (selectedPoint.Type === "") {
-      setErrorVehicle("Point Type has to be selected");
-      hasErrors = true;
-    } else if (selectedPoint.Type=== "Sysco-Shop-Points") {
-      setRemaining(converted-redeemAmount)
-    }else if (selectedPoint.Type=== "Chicken-Shop-Points") {
-      setRemaining(converted-redeemAmount)
+    }else if(selectedPoint.Type==="Sysco-Shop-Points"){
+      setConverted(convertAmount/100)
+    }else if(selectedPoint.Type==="Fruit-Shop-Points"){
+      setConverted(convertAmount/50)
     }
+    
+  }
+  const handleRedeem = (_) => {
+ 
+    setRemaining(converted-redeemAmount)
+
+    // if (selectedPoint.Type === "") {
+    //   setErrorVehicle("Point Type has to be selected");
+    //   hasErrors = true;
+    // } else if (selectedPoint.Type=== "Sysco-Shop-Points") {
+    //   setRemaining(converted-redeemAmount)
+    // }else if (selectedPoint.Type=== "Chicken-Shop-Points") {
+    //   setRemaining(converted-redeemAmount)
+    // }
 
 
   };
